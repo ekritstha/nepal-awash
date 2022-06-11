@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="name">Keywords (separated by comma)</label>
-                                    <input type="text" class="form-control" id="meta_tags" name="meta_tags" required>
+                                    <input type="text" class="form-control" id="meta_tags" name="meta_tags">
                                 </div>
                                 <div class="form-group">
                                     <label for="sort">Sort {!! \App\Util\Util::htmlReq() !!}</label>

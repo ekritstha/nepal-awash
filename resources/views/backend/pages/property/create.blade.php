@@ -116,7 +116,7 @@
 
                                 <div class="form-group">
                                     <label for="status">Status</label>
-                                    <select name="status" class="form-control" id="" required>
+                                    <select name="status" class="form-control" id="">
                                         <option value="" disabled selected>Choose an Option</option>
                                         <option value="1">Available</option>
                                         <option value="0">Not Available</option>
@@ -125,7 +125,7 @@
 
                                 <div class="form-group">
                                     <label for="slider">Show on slider</label>
-                                    <select name="slider" class="form-control" id="" required>
+                                    <select name="slider" class="form-control" id="">
                                         <option value="" disabled selected>Choose an Option</option>
                                         <option value="1">Yes</option>
                                         <option value="0">No</option>
@@ -134,7 +134,7 @@
 
                                 <div class="form-group">
                                     <label for="name">Keywords (separated by comma)</label>
-                                    <input type="text" class="form-control" id="meta_tags" name="meta_tags" required>
+                                    <input type="text" class="form-control" id="meta_tags" name="meta_tags">
                                 </div>
                             </div>
                             <!-- /.card-body -->

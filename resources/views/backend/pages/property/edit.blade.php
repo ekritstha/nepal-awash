@@ -134,7 +134,7 @@
 
                                 <div class="form-group">
                                     <label for="status">Status {!! \App\Util\Util::htmlReq() !!}</label>
-                                    <select name="status" class="form-control" id="" required>
+                                    <select name="status" class="form-control" id="">
                                         <option value="" disabled selected>Choose an Option</option>
                                         <option value="1" {{ $data->status == 1 ? 'selected' : '' }}>Available
                                         </option>
@@ -145,7 +145,7 @@
 
                                 <div class="form-group">
                                     <label for="slider">Show on slider</label>
-                                    <select name="slider" class="form-control" id="" required>
+                                    <select name="slider" class="form-control" id="">
                                         <option value="" disabled selected>Choose an Option</option>
                                         <option value="1" {{ $data->slider == 1 ? 'selected' : '' }}>Yes</option>
                                         <option value="0" {{ $data->status == 0 ? 'selected' : '' }}>No</option>
@@ -155,7 +155,7 @@
                                 <div class="form-group">
                                     <label for="name">Keywords (separated by comma)</label>
                                     <input type="text" class="form-control" id="meta_tags" name="meta_tags"
-                                        value="{{ $data->meta_tags }}" required>
+                                        value="{{ $data->meta_tags }}">
                                 </div>
                             </div>
                             <!-- /.card-body -->

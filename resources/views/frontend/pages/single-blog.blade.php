@@ -26,7 +26,8 @@
                         </div>
                         <div class="bc-details">
                             <div class="bc-pic" style="width: 100%">
-                                <img src="{{ asset('images/blog/' . $blog->image) }}" alt="" style="width: 100%" />
+                                <img src="{{ asset('images/blog/' . $blog->image) }}" alt=""
+                                    style="width:100% !important" />
                             </div>
                         </div>
                         <div class="bc-desc">

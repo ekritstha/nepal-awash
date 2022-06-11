@@ -49,6 +49,10 @@
     color: #111111 !important;
 }
 
+.ht-widget p {
+    display: inline !important;
+}
+
 .header_logo_custom {
     max-width: 66%;
 }
@@ -69,6 +73,14 @@
 
 .search-form-content {
     overflow: visible !important;
+}
+
+.bc-pic img {
+    width: 100% !important;
+}
+
+.pa-text p {
+    color: #b5c21a;
 }
 
 .space-ptb {

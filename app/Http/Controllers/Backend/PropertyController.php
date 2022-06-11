@@ -7,6 +7,9 @@ use App\Http\Controllers\Controller;
 use App\Models\City;
 use App\Models\Property;
 use Illuminate\Http\Request;
+use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Str;
+use Carbon\Carbon;
 
 class PropertyController extends Controller
 {
