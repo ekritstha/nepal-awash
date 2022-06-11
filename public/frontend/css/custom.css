@@ -1,0 +1,208 @@
+@media only screen and (max-width: 767px) {
+    .offcanvas-menu-wrapper.show-offcanvas-menu-wrapper {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas-menu-wrapper .canvas-close {
+        font-size: 22px;
+        height: 35px;
+        width: 35px;
+        border: 1px solid #111111;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .offcanvas-menu-wrapper .logo {
+        margin-bottom: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop_show_image {
+        display: none;
+    }
+    .mobile_show_image {
+        display: block !important;
+    }
+}
+
+.mobile_show_image {
+    display: none;
+}
+
+.menu_custom_wrapper {
+    margin-bottom: 25px !important;
+}
+
+.mobile_menu_custom li a {
+    color: #111111 !important;
+}
+
+.header_logo_custom {
+    max-width: 66%;
+}
+
+.chooseus-features .cf-item .cf-pic {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.a-404:hover {
+    color: #111111;
+    font-weight: 600;
+}
+
+.blog-sidebar .follow-us .fu-links a.linkedin {
+    background: #0077b5;
+}
+
+.space-ptb {
+    padding: 90px 0;
+}
+
+@media (max-width: 991px) {
+    .space-ptb {
+        padding: 60px 0;
+    }
+}
+
+.house-animation {
+    animation: animationFrames ease-out 15s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 0%;
+    -webkit-animation: animationFrames ease-out 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 0%;
+    -moz-animation: animationFrames ease-out 15s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 0%;
+    -o-animation: animationFrames ease-out 15s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 0%;
+    -ms-animation: animationFrames ease-out 15s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 0%;
+}
+
+@keyframes animationFrames {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes animationFrames {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    20% {
+        -webkit-transform: rotate(15deg);
+    }
+    40% {
+        -webkit-transform: rotate(-10deg);
+    }
+    60% {
+        -webkit-transform: rotate(5deg);
+    }
+    80% {
+        -webkit-transform: rotate(-5deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+.cloud {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-animation: movecloud 4s linear infinite;
+    animation: movecloud 4s linear infinite;
+    /*animation-play-state: paused;*/
+}
+
+.cloud-01 {
+    fill: red;
+    top: 10px;
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+}
+
+.cloud-02 {
+    fill: blue;
+    top: 80px;
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+}
+
+.cloud-03 {
+    fill: green;
+    top: 40px;
+    -webkit-animation-delay: -3s;
+    animation-delay: -3s;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+}
+
+.cloud-04 {
+    fill: green;
+    top: 80px;
+    -webkit-animation-delay: -4s;
+    animation-delay: -4s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes movecloud {
+    0% {
+        left: -300px;
+    }
+    100% {
+        left: 110%;
+    }
+}
+
+@keyframes movecloud {
+    0% {
+        left: -300px;
+    }
+    100% {
+        left: 110%;
+    }
+}
