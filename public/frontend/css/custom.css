@@ -67,6 +67,10 @@
     background: #0077b5;
 }
 
+.search-form-content {
+    overflow: visible !important;
+}
+
 .space-ptb {
     padding: 90px 0;
 }

@@ -69,6 +69,8 @@
                         <option value="">Property Type</option>
                         <option value="House">House</option>
                         <option value="Land">Land</option>
+                        <option value="Apartment">Apartment</option>
+                        <option value="Office">Office</option>
                     </select>
                     <button type="submit" class="search-btn sm-width">Search</button>
                 </form>
