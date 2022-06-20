@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="name">Location {!! \App\Util\Util::htmlReq() !!}</label>
-                                    <input type="text" class="form-control" id="location" name="location"
+                                    <input type="number" class="form-control" id="location" name="location"
                                         value="{{ $data->location }}" required>
                                 </div>
 
