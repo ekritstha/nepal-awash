@@ -27,7 +27,8 @@ class Property extends Model
         'sort',
         'status',
         'slider',
-        'meta_tags'
+        'meta_tags',
+        'contact'
     ];
     protected $appends = ['property_id', 'price_formatted', 'bathroom_formatted', 'bedroom_formatted', 'parking_space_formatted', 'lot_area_formatted'];
 

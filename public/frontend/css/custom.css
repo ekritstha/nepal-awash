@@ -87,6 +87,14 @@
     padding: 90px 0;
 }
 
+.telephone_custom_css {
+    margin-top: -15px;
+}
+
+.telephone_custom_css a:hover {
+    color: #b5c21a;
+}
+
 @media (max-width: 991px) {
     .space-ptb {
         padding: 60px 0;

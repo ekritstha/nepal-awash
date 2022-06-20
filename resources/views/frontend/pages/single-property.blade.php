@@ -99,6 +99,11 @@
                                         <span class="icon_pin_alt"></span> {{ $property->location }},
                                         {{ $property->city }}
                                     </p>
+                                    <p class="telephone_custom_css">
+                                        <span class="fa-solid fa-phone"></span>
+                                        <a href="tel:{{ $property->contact }}" style="">{{ $property->contact }}</a>
+
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-lg-6">

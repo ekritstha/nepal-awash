@@ -1,6 +1,8 @@
 <div class="blog-item">
     <div class="bi-pic" style="max-width: 45%">
-        <img src="{{ asset('images/blog/' . $b->image) }}" alt="" />
+        <a href="{{ route('single-blog', ['slug' => $b->slug]) }}">
+            <img src="{{ asset('images/blog/' . $b->image) }}" alt="" />
+        </a>
     </div>
     <div class="bi-text">
         <h5>

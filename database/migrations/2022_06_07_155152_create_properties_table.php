@@ -19,6 +19,7 @@ class CreatePropertiesTable extends Migration
             $table->string('slug');
             $table->string('city');
             $table->string('location');
+            $table->string('contact');
             $table->integer('price')->nullable();
             $table->integer('lot_area')->nullable();
             $table->integer('bathroom')->nullable();

@@ -25,6 +25,7 @@
                                             </p>
                                             <p><span class="font-weight-bold">Location:</span> {{ $d->location }}</p>
                                             <p><span class="font-weight-bold">City:</span> {{ $d->city }}</p>
+                                            <p><span class="font-weight-bold">Contact:</span> {{ $d->contact }}</p>
                                             <p><span class="font-weight-bold">Property Size:</span> {{ $d->lot_area }}sq.
                                             </p>
                                             {{-- <p><span class="font-weight-bold">Year:</span> {{ $d->year }}</p> --}}

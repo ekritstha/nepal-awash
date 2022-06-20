@@ -1,5 +1,9 @@
 <div class="property-item">
-    <div class="pi-pic set-bg" data-setbg="{{ asset('images/property/' . $p->image) }}">
+    {{-- <div class="pi-pic set-bg" data-setbg="{{ asset('images/property/' . $p->image) }}"> --}}
+    <div class="pi-pic set-bg">
+        <a href="{{ route('single-property', ['slug' => $p->slug]) }}">
+            <img src="{{ asset('images/property/' . $p->image) }}" alt="">
+        </a>
         @if ($p->rent_sale == 'Rent')
             <div class="label">
                 For Rent
@@ -30,7 +34,7 @@
         </ul>
         <div class="pi-agent">
             <div class="pa-item">
-                <div class="pa-text"> {!! App\Util\Util::getFormattedNumber($components, 'Contact Number', 'description') !!}</div>
+                <div class="pa-text"> {{ $p->contact }}</div>
             </div>
         </div>
     </div>

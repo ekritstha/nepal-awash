@@ -44,6 +44,12 @@
                                 </div>
 
                                 <div class="form-group">
+                                    <label for="contact">Contact Number {!! \App\Util\Util::htmlReq() !!}</label>
+                                    <input type="text" class="form-control" id="contact" name="contact"
+                                        value="{{ $data->contact }}" required>
+                                </div>
+
+                                <div class="form-group">
                                     <label for="name">Price {!! \App\Util\Util::htmlReq() !!}</label>
                                     <input type="number" class="form-control" id="price" name="price"
                                         value="{{ $data->price }}" required>
